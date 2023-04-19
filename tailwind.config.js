@@ -66,6 +66,10 @@ module.exports = {
           100: '#2aa0a4',
           150: '#156a7f',
         },
+        retroblack: {
+          DEFAULT: '#290a09',
+          50: '#290a09',
+        }
       }
     },
   },

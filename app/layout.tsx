@@ -25,7 +25,7 @@ const fontDescription = Lato({
 });
 
 const fontDescriptionBold = Lato({
-  weight: ["700"],
+  weight: ["900"],
   subsets: ["latin"],
   variable: "--font-description-bold",
 });
