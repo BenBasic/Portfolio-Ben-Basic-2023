@@ -23,7 +23,7 @@ const LandingHero: React.FC = () => {
 
             <button className="justify-center px-4 py-2 mt-4 text-center bg-retrowarm-100 rounded-3xl">
                 <span className="text-xl font-heading text-newwhite">
-                    My Projects
+                    View Projects
                 </span>
             </button>
 

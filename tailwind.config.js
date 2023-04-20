@@ -69,6 +69,12 @@ module.exports = {
         retroblack: {
           DEFAULT: '#290a09',
           50: '#290a09',
+        },
+        buttonblue: {
+          DEFAULT: '#146a7f',
+          50: '#146a7f',
+          100: '#57A7BA',
+          150: '#024150'
         }
       }
     },

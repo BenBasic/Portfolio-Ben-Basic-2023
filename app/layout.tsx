@@ -19,7 +19,7 @@ const fontCursive = Pacifico({
 });
 
 const fontDescription = Lato({
-  weight: ["400"],
+  weight: ["700"],
   subsets: ["latin"],
   variable: "--font-description",
 });
