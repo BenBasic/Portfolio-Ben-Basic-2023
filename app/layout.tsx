@@ -38,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${fontHeading.variable} ${fontCursive.variable} ${fontDescription.variable} ${fontDescriptionBold.variable} bg-retroradcool-150`}>
+      <body className={`${fontHeading.variable} ${fontCursive.variable} ${fontDescription.variable} ${fontDescriptionBold.variable} bg-retroradcool-150 overflow-x-hidden`}>
         {children}
       </body>
     </html>

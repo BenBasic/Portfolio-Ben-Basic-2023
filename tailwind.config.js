@@ -76,7 +76,37 @@ module.exports = {
           100: '#57A7BA',
           150: '#024150'
         }
-      }
+      },
+      keyframes: {
+        heartbeat: {
+          "0%": {
+            transform: "scale(1)",
+            "transform-origin": "center center",
+            "animation-timing-function": "ease-out"
+          },
+          "10%": {
+            transform: "scale(.91)",
+            "animation-timing-function": "ease-in"
+          },
+          "17%": {
+            transform: "scale(.98)",
+            "animation-timing-function": "ease-out"
+          },
+          "33%": {
+            transform: "scale(.87)",
+            "animation-timing-function": "ease-in"
+          },
+          "45%": {
+            transform: "scale(1)",
+            "animation-timing-function": "ease-out"
+          }
+        },
+      },
+      screens: {
+        mobiletiny: '320px',
+        mobilesm: '350px',
+        mobilemd: '400px',
+      },
     },
   },
   plugins: [],
