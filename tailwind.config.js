@@ -81,11 +81,8 @@ module.exports = {
           200: '#2872AD',
         }
       },
-      dropShadow: {
-        'stereoscopic': [
-          '3px 3px 0px rgb(40, 220, 173)',
-          '-3px -3px 0px rgb(246, 114, 173)',
-        ]
+      animation: {
+        heartbeat: "heartbeat 1.5s ease both",
       },
       keyframes: {
         heartbeat: {

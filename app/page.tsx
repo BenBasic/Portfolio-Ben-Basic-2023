@@ -68,8 +68,6 @@ export default function Home() {
       <div className='fixed top-0 right-0 invisible w-20 h-full bg-retroradcool-50 2xl:visible desktoplg:w-60' />
       <div className='fixed top-0 invisible w-20 h-full bg-retroradcool-100 right-20 desktoplg:right-60 2xl:visible desktoplg:w-60' />
 
-
-
     </main>
   )
 }
