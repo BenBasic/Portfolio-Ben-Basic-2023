@@ -13,11 +13,11 @@ const ProjectsContent = () => {
                 url='https://www.hwy17hotel.com/'
                 description={
                     <div className='mx-auto'>
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Hotel website with real-time reservation system.
                         </p>
 
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Designed and developed from the ground up for client within a 2 month deadline.
                         </p>
                     </div>
@@ -70,11 +70,11 @@ const ProjectsContent = () => {
                 url='https://www.bigbirdinn.com/'
                 description={
                     <div className='mx-auto'>
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Hotel website with real-time reservation system.
                         </p>
 
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Designed and developed from the ground up for client within a 2 month deadline.
                         </p>
                     </div>
@@ -127,11 +127,11 @@ const ProjectsContent = () => {
                 url='https://www.nutrabee.ca/'
                 description={
                     <div className='mx-auto'>
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Custom Shopify store with existing codebase taken over.
                         </p>
 
-                        <p className='mx-4 my-1 text-base'>
+                        <p className='mx-4 my-1 text-sm mobiletiny:text-base'>
                             Implemented new features, bug fixes, and performance optimization for client.
                         </p>
                     </div>

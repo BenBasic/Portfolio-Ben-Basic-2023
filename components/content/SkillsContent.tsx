@@ -12,7 +12,7 @@ const SkillsContent = () => {
             />
 
 
-            <div className='w-full px-4 mx-auto font-heading text-retroblack-50'>
+            <div className='w-full px-2 mx-auto mobilefold:px-4 font-heading text-retroblack-50'>
 
                 <SkillsCollection
                     one='JavaScript'
@@ -67,7 +67,7 @@ const SkillsContent = () => {
             />
 
 
-            <div className='w-full px-4 pb-2 mx-auto mb-4 font-heading text-retroblack-50'>
+            <div className='w-full px-2 pb-2 mx-auto mb-4 mobilefold:px-4 font-heading text-retroblack-50'>
 
                 <SkillsCollection
                     one='Photoshop'

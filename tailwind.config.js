@@ -5,6 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -74,8 +77,15 @@ module.exports = {
           DEFAULT: '#146a7f',
           50: '#146a7f',
           100: '#57A7BA',
-          150: '#024150'
+          150: '#024150',
+          200: '#2872AD',
         }
+      },
+      dropShadow: {
+        'stereoscopic': [
+          '3px 3px 0px rgb(40, 220, 173)',
+          '-3px -3px 0px rgb(246, 114, 173)',
+        ]
       },
       keyframes: {
         heartbeat: {
@@ -103,9 +113,13 @@ module.exports = {
         },
       },
       screens: {
+        mobilefold: '300px',
         mobiletiny: '320px',
         mobilesm: '350px',
+        mobiletags: '370px',
         mobilemd: '400px',
+        mobilelg: '500px',
+        desktoplg: '2200px',
       },
     },
   },

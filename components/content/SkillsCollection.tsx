@@ -11,7 +11,7 @@ const SlashTwo = () => <span className=" text-retroradwarm-150">/</span>
 
 const SkillsCollection: React.FC<TSkillRow> = ({ one, two, three }) => {
     return (
-        <div className='w-full px-2 mx-auto text-lg text-center border-2 rounded-full border-retroradwarm-200'>
+        <div className='w-full px-1 mx-auto text-sm text-center border-2 rounded-full mobilefold:px-2 mobiletiny:text-base mobiletags:text-lg border-retroradwarm-200'>
 
             <h2 className='inline px-1'>
                 {one}

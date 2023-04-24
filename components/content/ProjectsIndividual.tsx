@@ -28,12 +28,12 @@ const ProjectsIndividual: React.FC<TProject> = ({ name, img, url, description, s
                     alt={`${alt}`}
                     fill
                     priority
-                    sizes='100vw'
+                    sizes="(max-width: 300px) 204px,
+                    (max-width: 400px) 278px,
+                    (max-width: 1535px) 352px,
+                    416px"
                     key={`${img}`}
-                // "(max-width: 300px) 252px,
-                // (max-width: 400px) 352px,
-                // (max-width: 500px) 452px,
-                // 512px"
+
                 />
 
             </div>

@@ -7,7 +7,7 @@ import ContactContent from '@/components/content/ContactContent'
 
 export default function Home() {
   return (
-    <main className="min-h-screen mx-auto max-w-7xl">
+    <main className="min-h-screen mx-auto overflow-x-hidden max-w-7xl">
 
       <LandingHero />
 
@@ -50,12 +50,23 @@ export default function Home() {
       />
 
       <div className='w-full px-10 mx-auto mt-10 mb-12 text-center'>
-        <button className="justify-center px-4 py-2 mt-4 text-center bg-retrowarm-100 rounded-3xl">
-          <span className="text-xl font-heading text-newwhite">
-            Back to top
-          </span>
-        </button>
+        <a href='#top'>
+          <button className="justify-center px-4 py-2 mt-4 text-center transition-colors duration-75 bg-retrowarm-100 hover:bg-retrowarm-50 rounded-3xl">
+            <span className="text-xl font-heading text-newwhite">
+              Back to top
+            </span>
+          </button>
+        </a>
       </div>
+
+
+      {/* Screen edge colors to display on larger monitors */}
+
+      <div className='fixed top-0 left-0 invisible w-20 h-full bg-retroradcool-50 2xl:visible desktoplg:w-60' />
+      <div className='fixed top-0 invisible w-20 h-full bg-retroradcool-100 left-20 desktoplg:left-60 2xl:visible desktoplg:w-60' />
+
+      <div className='fixed top-0 right-0 invisible w-20 h-full bg-retroradcool-50 2xl:visible desktoplg:w-60' />
+      <div className='fixed top-0 invisible w-20 h-full bg-retroradcool-100 right-20 desktoplg:right-60 2xl:visible desktoplg:w-60' />
 
 
 

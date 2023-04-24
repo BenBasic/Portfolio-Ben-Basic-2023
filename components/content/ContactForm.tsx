@@ -120,7 +120,7 @@ const ContactForm = () => {
                         htmlFor='form-name'
                     >
                         Name {displayError('name') &&
-                            <span className='absolute left-0 pt-1 pl-1 text-base -bottom-5 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
+                            <span className='absolute left-0 pt-1 pl-1 text-sm mobilefold:text-base -bottom-4 mobilefold:-bottom-5 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
                                 {errorContent.name}
                             </span>}
                     </label>
@@ -141,7 +141,7 @@ const ContactForm = () => {
                         htmlFor='form-email'
                     >
                         Email {displayError('email') &&
-                            <span className='absolute left-0 pt-1 pl-1 text-base -bottom-5 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
+                            <span className='absolute left-0 pt-1 pl-1 text-sm mobilefold:text-base -bottom-4 mobilefold:-bottom-5 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
                                 {errorContent.email}
                             </span>}
                     </label>
@@ -162,7 +162,7 @@ const ContactForm = () => {
                         htmlFor='form-message'
                     >
                         Message {displayError('message') &&
-                            <span className='absolute left-0 pt-1 pl-1 text-base -bottom-3 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
+                            <span className='absolute left-0 pt-1 pl-1 text-sm mobilefold:text-base -bottom-2 mobilefold:-bottom-3 text-retroradcool-150 animate-heartbeat font-descriptionBold'>
                                 {errorContent.message}
                             </span>}
                     </label>
