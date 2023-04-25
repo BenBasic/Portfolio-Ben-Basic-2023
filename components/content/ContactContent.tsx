@@ -18,7 +18,7 @@ const ContactContent = () => {
                 margin={false}
             />
 
-            <div className='w-10/12 mx-auto my-1 border-t-2 border-retroradwarm-150' />
+            <div className='w-10/12 mx-auto mt-2 mb-1 border-t-2 border-retroradwarm-150' />
 
             <RadButton
                 text='GitHub'

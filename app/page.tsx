@@ -51,7 +51,7 @@ export default function Home() {
 
       <div className='w-full px-10 mx-auto mt-10 mb-12 text-center'>
         <a href='#top'>
-          <button className="justify-center px-4 py-2 mt-4 text-center transition-colors duration-75 bg-retrowarm-100 hover:bg-retrowarm-50 rounded-3xl">
+          <button className="justify-center px-4 py-2 mt-4 text-center transition-colors duration-75 bg-retrowarm-100 hover:bg-retrowarm-50 rounded-3xl drop-shadow-[0px_3px_0px_rgb(251,210,144)]">
             <span className="text-xl font-heading text-newwhite">
               Back to top
             </span>
