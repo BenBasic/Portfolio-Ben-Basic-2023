@@ -14,7 +14,7 @@ const AboutContent = () => {
 
             <RadButton
                 text='View Resume'
-                url={`https://docs.google.com/document/d/1LK5R1XetGPVHpm0u76epVPf7DkoW6TVT/edit?usp=sharing&ouid=102663915874628547290&rtpof=true&sd=true`}
+                url={`https://drive.google.com/file/d/1-VLqY4iUnf9tAjpaZTNwrcK83iWJ3-id/view?usp=sharing`}
                 margin={true}
             />
 

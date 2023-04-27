@@ -25,7 +25,7 @@ https://www.benbasic.com
 
 ## Resume
 
-[View Resume](https://docs.google.com/document/d/1LK5R1XetGPVHpm0u76epVPf7DkoW6TVT/edit?usp=sharing&ouid=102663915874628547290&rtpof=true&sd=true)
+[View Resume](https://drive.google.com/file/d/1-VLqY4iUnf9tAjpaZTNwrcK83iWJ3-id/view?usp=sharing)
 
 
 ## Contact
