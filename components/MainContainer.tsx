@@ -12,10 +12,10 @@ type TContent = {
 const MainContainer: React.FC<TContent> = ({ content, title, img, connectTop, connectBottom }) => {
     return (
         <div className='w-full max-w-lg p-2 mx-auto 2xl:max-w-xl mobilemd:px-4' id={`${title}`}>
-            <div className="w-full mx-auto mt-4 mobilemd:p-4 mobilesm:p-3 p-2 bg-[#de3931] rounded-xl relative">
-                <div className="w-full h-full mobilemd:p-4 mobilesm:p-3 p-2 mx-auto bg-[#e5732d] rounded-xl relative">
-                    <div className="w-full h-full mobilemd:p-4 mobilesm:p-3 p-2 mx-auto bg-[#f0b024] rounded-xl relative">
-                        <div className="w-full h-full mx-auto bg-[#f6dcad] rounded-xl">
+            <div className="relative w-full p-2 mx-auto mt-4 mobilemd:p-4 mobilesm:p-3 bg-retroradwarm-200 rounded-xl">
+                <div className="relative w-full h-full p-2 mx-auto mobilemd:p-4 mobilesm:p-3 bg-retroradwarm-150 rounded-xl">
+                    <div className="relative w-full h-full p-2 mx-auto mobilemd:p-4 mobilesm:p-3 bg-retroradwarm-100 rounded-xl">
+                        <div className="w-full h-full mx-auto bg-retroradwarm-50 rounded-xl">
 
                             <div className='relative aspect-[80/83] p-4'>
                                 <Image className='p-4'

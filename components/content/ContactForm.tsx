@@ -113,7 +113,8 @@ const ContactForm = () => {
 
 
             <form className={submitMessage === 'Your email has been sent!' ? 'relative invisible' : 'relative visible'}
-                onSubmit={(e) => handleSubmit(e, formState.name, formState.email, formState.message)}>
+                onSubmit={(e) => handleSubmit(e, formState.name, formState.email, formState.message)}
+                autoComplete='off'>
 
                 <div className='relative w-full'>
                     <label className='pl-1 text-lg font-heading text-retroblack-50'
@@ -178,7 +179,7 @@ const ContactForm = () => {
                     />
                 </div>
 
-                <button className='flex items-center justify-center w-full py-1 mt-4 transition-colors duration-75 rounded-full bg-buttonblue-50 hover:bg-buttonblue-100 active:bg-buttonblue-150 drop-shadow-[0px_3px_0px_rgb(226,168,101)]'
+                <button className={`flex items-center justify-center w-full py-1 mt-4 transition-colors duration-75 rounded-full bg-buttonblue-50 hover:bg-buttonblue-100 active:bg-buttonblue-150 ${submitMessage === 'Your email has been sent!' ? 'drop-shadow-none invisible' : 'drop-shadow-[0px_3px_0px_rgb(226,168,101)] visible'}`}
                     type="submit"
                     disabled={loading}
                 >
@@ -189,19 +190,27 @@ const ContactForm = () => {
 
 
                 {submitMessage === 'Your email has been sent!' &&
-                    <div className='absolute left-0 visible w-full mx-auto text-center top-1/2'>
-                        <h1 className='text-xl font-heading text-retroblack-50'>
-                            {submitMessage}
-                        </h1>
-                    </div>
+                    <>
+                        <div className='absolute left-0 visible w-full mx-auto text-center top-1/2'>
+                            <h1 className='text-xl font-heading text-retroblack-50'>
+                                {submitMessage}
+                            </h1>
+                        </div>
+
+                        <div className='absolute visible w-full h-10 mx-auto my-2 text-center bg-retroradwarm-50 -bottom-5' />
+                    </>
                 }
 
                 {submitMessage === 'Your email failed to send, please try again' &&
-                    <div className='visible w-full mx-auto my-2 text-center'>
-                        <h1 className='text-xl font-heading text-retroblack-50'>
-                            {submitMessage}
-                        </h1>
-                    </div>
+                    <>
+                        <div className='visible w-full mx-auto my-2 text-center'>
+                            <h1 className='text-xl font-heading text-retroblack-50'>
+                                {submitMessage}
+                            </h1>
+                        </div>
+
+                        <div className='absolute visible w-full h-10 mx-auto my-2 text-center bg-retroradwarm-50 -bottom-5' />
+                    </>
                 }
 
             </form>
